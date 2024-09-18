@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Lair - Store</title>
+    <link rel="stylesheet" href="../css/store.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Custom Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Icons-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+<body>
+    <div class="container">
+        <div class="Navbar">
+
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html" class="nav_logo"><img src="../images/navbar_mini_logo.png" alt=""></a>
+                <a href="../pages/store.html"  class="active">store</a>
+                <a href="../pages/contact.html">Contact</a>
+                <a href="../pages/AboutUs.html">About</a>
+                <a href="../pages/socialmedia.html">Media</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </div>
+        
+        <div class="banner">
+          <img src="../images/banners/store.png" alt="">
+        </div>
+
+        <div class="Button_Select">
+          <h2>My Phonebook</h2>
+
+          <!--searchbar-->
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Products.." title="Type in a name">
+
+          <!--product list-->
+          <ul id="myUL">
+              <li>
+                  <div class="card">
+                      <div class="image_container">
+                          <img class="productimage" src="../images/Products/atari.jpg" alt="">
+                      </div>
+              
+                      <div class="lower_container">
+                          <div class="text_container">
+                              <div class="text_heading"><h3><a>Atari</a></h3></div>
+                              <div class="text_body"><p>A Classic Console</p></div>
+                          </div>
+                          <div class="price">
+                            <p>£40</p>
+                          </div>
+                          <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                      </div>
+                  </div>
+              </li>
+
+
+              <li>
+                  <div class="card">
+                      <div class="image_container">
+                          <img class="productimage" src="../images/Products/SegaGenesis.png" alt="">
+                      </div>
+              
+                      <div class="lower_container">
+                          <div class="text_container">
+                              <div class="text_heading"><h3><a>sega genesis</a></h3></div>
+                              <div class="text_body"><p>The Sega Genesis does what Nintendont</p></div>
+                          </div>
+                          <div class="price">
+                            <p>£92</p>
+                          </div>
+                          <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                      </div>
+                  </div>
+              </li>
+            
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/N64.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h3><a>Nintendo 64</a></h3></div>
+                            <div class="text_body"><p>A late 90s game changer</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£75</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/commandandconquer.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h4><a>Command and Conquer (PS1)</a></h4></div>
+                            <div class="text_body"><p>The legendary RTS game which started it all</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£34</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/gameboy.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h3><a>GameBoy</a></h3></div>
+                            <div class="text_body"><p>The first addition to handheld gaming</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£120</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/gameboycolor_pokemon.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h3><a>Gameboy color</a></h3></div>
+                            <div class="text_body"><p>planet's most loved handheld with over 100 million units sold</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£79.99</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/gamecube.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h3><a>Gamecube</a></h3></div>
+                            <div class="text_body"><p>Small, cute and desirable</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£50</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/goldeneye.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h3><a>Goldeneye (N64)</a></h3></div>
+                            <div class="text_body"><p>No fears, no substitutes</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£15</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/halflife.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h4><a>Half Life (PC Disk)</a></h4></div>
+                            <div class="text_body"><p>Valve's revolutionary 1997 FPS</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£13</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/NES.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h3><a>Nintendo Entertainment System</a></h3></div>
+                            <div class="text_body"><p></p></div>
+                        </div>
+                        <div class="price">
+                          <p>£150</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/ps1.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h3><a>Playstation 1</a></h3></div>
+                            <div class="text_body"><p>home video game console developed and marketed by Sony</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£120</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                    <div class="image_container">
+                        <img class="productimage" src="../images/Products/ps2.png" alt="">
+                    </div>
+            
+                    <div class="lower_container">
+                        <div class="text_container">
+                            <div class="text_heading"><h3><a>Playstation 2</a></h3></div>
+                            <div class="text_body"><p>Sony's second video game console</p></div>
+                        </div>
+                        <div class="price">
+                          <p>£70</p>
+                        </div>
+                        <div class="button_container"><button i class="fa fa-shopping-basket" onclick="location.href = '../pages/productpage.html'">Purchase</button></div>
+                    </div>
+                </div>
+              </li>
+          <!--SEARCHES THROUGH <a> TAGS ONLY-->
+          <script>
+          function myFunction() {
+              var input, filter, ul, li, a, i, txtValue;
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myUL");
+              li = ul.getElementsByTagName("li");
+              for (i = 0; i < li.length; i++) {
+                  a = li[i].getElementsByTagName("a")[0];
+                  txtValue = a.textContent || a.innerText;
+                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                      li[i].style.display = "";
+                  } else {
+                      li[i].style.display = "none";
+                  }
+              }
+          }
+          </script>
+        </div>
+    </div>
+      
+</body>
+</html>
